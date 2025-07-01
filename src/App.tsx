@@ -1,5 +1,4 @@
-import { useState, useEffect } from 'react'
-import QuotesCard from './components/QuotesCard'
+import QuotesCard from './components/QuotesCard.tsx'
 
 const App = () => {
 
