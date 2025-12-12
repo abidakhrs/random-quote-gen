@@ -14,7 +14,7 @@ const QuotesCard = () => {
     try {
       const response = await fetch('https://api.api-ninjas.com/v1/quotes', {
         headers: {
-          'X-Api-Key': 'u4TUdsRRhDsqdaTTF8lgUQ==sqgezoQ5t9C2HKFo',
+          'X-Api-Key': import.meta.env.VITE_API_KEY,
         },
       });
 
